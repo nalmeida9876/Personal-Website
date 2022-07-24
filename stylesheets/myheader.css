@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding-right: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.title-name {
+  font-weight: bold;
+  font-size: 60px;
+  width: 600px;
+  padding-left: 60px;
+  height: 80px;
+  white-space: nowrap;
+}
+
+.header-sections {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+.skills-header,
+.projects-header,
+.resume-header,
+.contact-header,
+.education-header {
+  background-color: rgb(31, 31, 31);
+  border-style: solid;
+  border-color: rgb(31, 31, 31);
+  font-size: 20px;
+  color: white;
+  font-family: DM Sans,Arial;
+  padding: 10px 5px;
+  transition: font-size 0.15s;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.skills-header:hover,
+.projects-header:hover,
+.resume-header:hover,
+.contact-header:hover,
+.education-header:hover {
+  font-size: 25px;
+  transition: font-size 0.15s;
+  cursor:pointer;
+  white-space: nowrap;
+}
+
+.header-icon {
+  width: 10px;
+  color: white;
+}

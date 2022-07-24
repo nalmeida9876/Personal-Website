@@ -1,0 +1,57 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 750px;
+  background-color: rgb(31, 31, 31);
+  padding-top: 20px;
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.75);
+}
+
+.project-container{
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.proj-image {
+  width: 400px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  object-fit: cover;
+}
+.prog-image-container{
+  width: 550px;
+  padding-left: 50px;
+}
+
+.proj-details{
+  display: grid;
+  color: white;
+  grid-template-columns: 500px;
+  font-weight: bold;
+}
+
+.proj-title{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.created-with{
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+
+.proj-text-line {
+  font-size: 16px;
+}
+
+.prog-lang-img{
+  width: 30px;
+  padding-left: 15px;
+}
