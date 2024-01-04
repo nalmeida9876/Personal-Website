@@ -49,4 +49,7 @@
   transition: width 0.15s;
 }
 
-
+.img-link:hover{
+  width:120px;
+  transition: width 0.15s;
+}
