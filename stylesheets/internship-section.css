@@ -1,0 +1,51 @@
+.Internship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 825px;
+    background-color: rgb(31, 31, 31);
+    padding-top: 20px;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.75);
+}
+
+.intern-image-container{
+    width: 450px;
+    padding-left: 150px;
+}
+
+.intern-title{
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.intern-image {
+    width: 256px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.intern-subtitle{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.intern-text-line{
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 600px;
+}
+
+.intern-dates{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.intern-details{
+    display: grid;
+    color: white;
+    grid-template-columns: 500px;
+  }

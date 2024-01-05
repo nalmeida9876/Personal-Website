@@ -23,6 +23,7 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
 .prog-image-container{
   width: 550px;
   padding-left: 50px;
@@ -32,12 +33,12 @@
   display: grid;
   color: white;
   grid-template-columns: 500px;
-  font-weight: bold;
 }
 
 .proj-title{
   font-size: 30px;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .created-with{
@@ -49,6 +50,7 @@
 
 .proj-text-line {
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .prog-lang-img{
