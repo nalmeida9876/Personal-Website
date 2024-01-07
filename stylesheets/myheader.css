@@ -31,7 +31,7 @@
 }
 
 
-
+.internship-header,
 .skills-header,
 .projects-header,
 .resume-header,
@@ -49,6 +49,7 @@
   text-decoration: none;
 }
 
+.internship-header:hover,
 .skills-header:hover,
 .projects-header:hover,
 .resume-header:hover,
